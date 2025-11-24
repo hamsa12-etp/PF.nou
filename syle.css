@@ -1,0 +1,202 @@
+/* Reset i configuració global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("recursos/fons.jpg") center/cover fixed no-repeat;
+    color: #efefec;
+}
+
+/* Capçalera amb flex */
+.capcalera {
+background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 202, 11), rgb(20, 20, 20), rgb(119, 128, 0));    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+/* GRID PRINCIPAL */
+.grid-principal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    padding: 30px;
+}
+
+.PRESIDENT {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 30%;
+   justify-content: center;
+    border: 1px solid #ffffff;
+        border-radius: 8px;
+ 
+   
+      
+}
+.imagenes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes img {
+    width: 215px;
+    height: auto;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    
+}
+
+
+/* Blocs */
+.bloc {
+background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 202, 11), rgb(20, 20, 20), rgb(119, 128, 0));
+    padding: 10px;    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s;
+}
+
+.bloc:hover {
+    transform: translateY(-20px);
+}
+
+/* jugadors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #160101;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    transition: transform 0.2s;
+    color: rgb(255, 255, 255);
+}
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+    .card:hover {
+    transform: scale(1.05);
+}
+
+.pivot {
+    background-color:rgb(216, 163, 163);
+
+}
+
+.ala {
+    background-color:rgb(129, 100, 100)
+
+}
+
+.cierre {
+    background-color:rgb(56, 21, 21)
+}
+
+.pivot-cierre {
+    background-color:rgb(17, 143, 154)
+}
+
+.portero {
+    background-color: rgb(134, 69, 69)
+}
+.Mister{
+    background-color: rgb(85, 28, 28)
+}
+.card h3 {
+    margin: 0 0 10px 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+   
+}
+/* Formulari */
+form {
+    gap: 20px;
+    align-items: center;
+    
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: #f2f4f2;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #fff;
+}
+
+/* Footer */
+footer {
+background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 202, 11), rgb(20, 20, 20), rgb(119, 128, 0));
+    padding: 20px;    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+}
