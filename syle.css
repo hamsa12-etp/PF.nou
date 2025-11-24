@@ -1,4 +1,4 @@
-/* Reset i configuració global */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     color: #efefec;
 }
 
-/* Capçalera amb flex */
+
 .capcalera {
 background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 202, 11), rgb(20, 20, 20), rgb(119, 128, 0));    padding: 20px;
     display: flex;
@@ -42,7 +42,7 @@ background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 
     color: #fff;
 }
 
-/* GRID PRINCIPAL */
+
 .grid-principal {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -78,7 +78,7 @@ display: block;
 }
 
 
-/* Blocs */
+
 .bloc {
 background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 202, 11), rgb(20, 20, 20), rgb(119, 128, 0));
     padding: 10px;    padding: 10px;
@@ -91,7 +91,6 @@ background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 
     transform: translateY(-20px);
 }
 
-/* jugadors */
 body {
     font-family: Arial, sans-serif;
     background-color: #160101;
@@ -160,7 +159,7 @@ body {
     gap: 10px;
    
 }
-/* Formulari */
+
 form {
     gap: 20px;
     align-items: center;
@@ -189,7 +188,7 @@ button:hover {
     background: #fff;
 }
 
-/* Footer */
+
 footer {
 background: linear-gradient(30deg, rgb(220, 220, 20), rgb(12, 12, 11), rgb(183, 202, 11), rgb(20, 20, 20), rgb(119, 128, 0));
     padding: 20px;    text-align: center;
